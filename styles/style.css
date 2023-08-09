@@ -18,7 +18,7 @@ body {
     margin-right: 49px;
     margin-bottom: 90px;
     justify-content: space-between;
-    gap: 224px;
+    gap: 250px;
 }
 
 .nav {
@@ -79,6 +79,13 @@ body {
     width: 100%; 
     height: 757px;
     background-image: url(/ono-tebe-nado/images/cover.jpg);
+    background-size: cover;
+}
+
+.shadow {
+    width: 100%;
+  height: 100%;
+  background-color: rgba(3, 1, 7, 0.5);
 }
 
 .cover-text {
