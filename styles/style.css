@@ -190,6 +190,7 @@ body {
 .card1 {
     width: 430px; 
     height: 450px;
+    max-height: 100%;
     background-image: url(/ono-tebe-nado/images/card-lot-01.jpg);
     background-size: cover;
 }
@@ -197,6 +198,7 @@ body {
 .card2 {
     width: 430px; 
     height: 450px;
+    max-height: 100%;
     background-image: url(/ono-tebe-nado/images/card-lot-02.jpg);
     background-size: cover;
 }
@@ -204,6 +206,7 @@ body {
 .card3 {
     width: 430px; 
     height: 450px;
+    max-height: 100%;
     background-image: url(/ono-tebe-nado/images/card-lot-03.jpg);
     background-size: cover;
 }
@@ -254,4 +257,65 @@ body {
     display: block;
     margin-top: 30px;
     margin-left: 90px;
+}
+
+.first {
+    margin-top: 202px;
+}
+
+.second {
+    margin-top: 31px;
+}
+
+.third {
+    margin-top: 77px;
+}
+
+.about {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 185px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about__logo {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 100%;
+    width: 1000px;
+    height: 240px;
+}
+
+.img-logo-white {
+    max-width: 60%;
+    
+}
+
+.about__text__block {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 102px;
+    flex-wrap: wrap;
+}
+
+.about__title {
+    color: black;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin-bottom: 100px;
+}
+
+.text__about {
+    color: black;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    word-wrap: break-word;
 }
