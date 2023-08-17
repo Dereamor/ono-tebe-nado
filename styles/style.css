@@ -1,6 +1,7 @@
 /* место для вашего кода */
 * {
     box-sizing: border-box; 
+
 }
 
 body {
@@ -163,10 +164,12 @@ a {
 
 .no_letter_spacing3 {
     padding-right: 29px; 
+
 }
 
 .no_letter_spacing4 {
     padding-right: 21px; 
+    
 }
 
 .cover-text-lower {
