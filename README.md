@@ -1,3 +1,3 @@
 ONO-TEBE-NADO
 
-https://Dereamor.github.io/ono-tebe-nado/
+https://github.com/Dereamor/ono-tebe-nado/tree/secondDay
