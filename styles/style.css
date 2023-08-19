@@ -41,7 +41,7 @@ a {
   margin-top: -1px;
 }
 
-.header__links-list-item_no-bullit {
+.header-links-list-item-no-bullit {
   list-style: none;
   text-decoration: none;
 }
@@ -53,7 +53,7 @@ a {
   margin-right: 149px;
 }
 
-.info__header {
+.info-header-block {
   display: flex;
   margin: auto;
   justify-content: flex-end;
@@ -87,7 +87,7 @@ a {
 .shadow {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover-text {
@@ -104,11 +104,11 @@ a {
   word-wrap: break-word;
 }
 
-.header-text1 {
+.header-text {
   margin-top: 165px;
 }
 
-.head1 {
+.head-1 {
   color: white;
   font-size: 100px;
   font-family: Raleway;
@@ -122,12 +122,12 @@ a {
   letter-spacing: 30px;
 }
 
-.no_letter_spacing1 {
+.no-letter-spacing-1 {
   padding-left: 29px;
   letter-spacing: 90px;
 }
 
-.head2 {
+.head-2 {
   color: white;
   font-size: 100px;
   font-family: Raleway;
@@ -141,12 +141,12 @@ a {
   letter-spacing: 30px;
 }
 
-.no_letter_spacing2 {
+.no-letter-spacing-2 {
   padding-left: 29px;
   letter-spacing: 61px;
 }
 
-.head3 {
+.head-3 {
   color: white;
   font-size: 100px;
   font-family: Raleway;
@@ -160,11 +160,11 @@ a {
   margin-top: 5px;
 }
 
-.no_letter_spacing3 {
+.no-letter-spacing-3 {
   padding-right: 29px;
 }
 
-.no_letter_spacing4 {
+.no-letter-spacing-4 {
   padding-right: 21px;
 }
 
@@ -179,13 +179,14 @@ a {
   text-transform: uppercase;
   line-height: 28px;
   word-wrap: break-word;
-  margin-top: 141px;
+  margin-top: 140px;
   margin-right: 50px;
 }
 
 .lower-text {
   word-spacing: 17px;
 }
+
 
 .btn {
   margin-top: -13px;
@@ -209,7 +210,7 @@ a {
   margin-top: 180px;
 }
 
-.lots__heading {
+.lots-heading {
   margin-left: 90px;
   margin-bottom: 27px;
   color: black;
@@ -229,7 +230,7 @@ a {
   max-height: 100%;
 }
 
-.card1 {
+.card-1 {
   width: 430px;
   height: 450px;
   max-height: 100%;
@@ -237,7 +238,7 @@ a {
   background-size: cover;
 }
 
-.card2 {
+.card-2 {
   width: 430px;
   height: 450px;
   max-height: 100%;
@@ -245,7 +246,7 @@ a {
   background-size: cover;
 }
 
-.card3 {
+.card-3 {
   width: 430px;
   height: 450px;
   max-height: 100%;
@@ -253,41 +254,41 @@ a {
   background-size: cover;
 }
 
-.lots__card-list {
+.lots-card-list {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   list-style: none;
 }
 
-.lots__card-list-item1 {
+.lots-card-list-item-1 {
   max-width: 100%;
   min-height: 100%;
   flex-grow: 1;
   margin-top: 50px;
-  margin-left: 37px;
+  margin-left: 40px;
   margin-right: 38px;
 }
 
-.lots__card-list-item2 {
+.lots-card-list-item-2 {
   max-width: 100%;
   min-height: 100%;
   flex-grow: 1;
-  margin-top: 50.5px;
-  margin-left: 32px;
-  margin-right: 48px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-.lots__card-list-item3 {
+.lots-card-list-item-3 {
   max-width: 100%;
   min-height: 100%;
   flex-grow: 1;
-  margin-top: 51px;
-  margin-left: 28px;
+  margin-top: 50px;
+  margin-left: 40px;
   margin-right: 50px;
 }
 
-.card__title {
+.card-title {
   color: white;
   font-size: 22px;
   font-family: Raleway;
@@ -298,7 +299,7 @@ a {
   word-wrap: break-word;
 }
 
-.card__text {
+.card-text {
   color: white;
   font-size: 20px;
   font-family: Raleway;
@@ -313,7 +314,7 @@ a {
   list-style: none;
 }
 
-.link__more {
+.link-more {
   display: block;
   margin-top: 31px;
   margin-left: 90px;
@@ -334,6 +335,7 @@ a {
 
 .third {
   margin-top: 79px;
+  margin-right: 43px;
 }
 
 .about {
@@ -345,7 +347,7 @@ a {
   margin-right: 50px;
 }
 
-.about__logo {
+.about-logo {
   display: flex;
   justify-content: center;
   background-color: black;
@@ -360,7 +362,7 @@ a {
   max-width: 62%;
 }
 
-.about__text__block {
+.about-text-block {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -370,7 +372,7 @@ a {
   padding-left: 2px;
 }
 
-.about__title {
+.about-title {
   color: black;
   font-size: 40px;
   font-family: Raleway;
@@ -380,7 +382,7 @@ a {
   margin-bottom: 100px;
 }
 
-.text__about {
+.text-about {
   color: black;
   font-size: 20px;
   font-family: Raleway;
@@ -399,14 +401,14 @@ a {
   gap: 350px;
 }
 
-.nav__footer {
+.nav-footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 280px;
 }
 
-.nav-list2 {
+.nav-list-2 {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -420,7 +422,7 @@ a {
   text-align: center;
 }
 
-.info__footer {
+.info-footer {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -445,7 +447,7 @@ a {
   word-wrap: break-word;
 }
 
-.footer__social-icon {
+.footer-social-icon {
   display: flex;
   max-width: 100%;
   gap: 46px;
