@@ -435,18 +435,6 @@ a {
   word-wrap: break-word;
 }
 
-.info-footer {
-  display: flex;
-  margin: auto;
-  justify-content: flex-end;
-  color: black;
-  font-size: 18px;
-  font-family: Raleway;
-  font-weight: 400;
-  line-height: 24.3px;
-  word-wrap: break-word;
-}
-
 .footer-social-icon {
   display: flex;
   max-width: 100%;
