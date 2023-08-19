@@ -15,7 +15,7 @@ a {
 .header {
   display: flex;
   margin: auto;
-  margin-top: 87px;
+  margin-top: 89px;
   margin-left: 51px;
   margin-right: 49px;
   margin-bottom: 90px;
@@ -38,6 +38,7 @@ a {
   justify-content: space-between;
   gap: 32px;
   margin: auto;
+  margin-top: -1px;
 }
 
 .header__links-list-item_no-bullit {
@@ -47,7 +48,7 @@ a {
 
 .img-logo {
   margin: auto;
-  height: 105px;
+  height: 104px;
   width: 148px;
   margin-right: 149px;
 }
