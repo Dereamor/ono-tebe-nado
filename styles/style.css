@@ -12,7 +12,6 @@ a {
   text-decoration: underline;
   text-underline-offset: 4px;
   font-style: normal;
-
 }
 
 .header {
@@ -192,7 +191,6 @@ a {
   word-spacing: 17px;
 }
 
-
 .btn {
   margin-top: -13px;
   color: white;
@@ -235,12 +233,11 @@ a {
   max-height: 100%;
 }
 
-
 .card {
-  width: 430px; 
-  min-height: 450px; 
-  max-height: 100%; 
-  background-size: cover; 
+  width: 430px;
+  min-height: 450px;
+  max-height: 100%;
+  background-size: cover;
 }
 
 .card-type-film {
@@ -254,7 +251,7 @@ a {
 .card-type-picture {
   background-image: url(../images/card-lot-03.jpg);
 }
- 
+
 .lots-card-list {
   display: flex;
   flex-direction: column;
@@ -267,7 +264,7 @@ a {
   min-height: 100%;
   flex-grow: 1;
   margin-top: 50px;
-  margin-left: 40px; 
+  margin-left: 40px;
 }
 /*У карточек разные отступы, по этому был добавлен доп класс*/
 .indent-1 {
