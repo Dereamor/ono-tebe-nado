@@ -11,7 +11,10 @@ body {
 a {
   text-decoration: underline;
   text-underline-offset: 4px;
+  font-style: normal;
+
 }
+
 .header {
   display: flex;
   margin: auto;
@@ -77,6 +80,7 @@ a {
 }
 
 .cover {
+  display: flex;
   width: 100%;
   min-height: 757px;
   background-image: url(../images/cover.jpg);
@@ -85,8 +89,9 @@ a {
 }
 
 .shadow {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  flex-grow: 1;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -299,8 +304,9 @@ a {
 }
 
 .card-link {
-  display: block;
+  display: flex;
   list-style: none;
+  text-decoration: none;
 }
 
 .link-more {
@@ -377,11 +383,11 @@ a {
   font-family: Raleway;
   font-weight: 400;
   word-wrap: break-word;
-  margin-bottom: 1px;
+  margin-bottom: 25px;
 }
 
 .footer {
-  margin-top: 179px;
+  margin-top: 155px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 90px;
