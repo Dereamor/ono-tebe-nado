@@ -78,7 +78,7 @@ a {
 
 .cover {
   width: 100%;
-  height: 757px;
+  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   margin-top: 92px;
@@ -230,30 +230,26 @@ a {
   max-height: 100%;
 }
 
-.card-1 {
-  width: 430px;
-  height: 450px;
-  max-height: 100%;
+
+.card {
+  width: 430px; 
+  min-height: 450px; 
+  max-height: 100%; 
+  background-size: cover; 
+}
+
+.card-type-film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
 }
 
-.card-2 {
-  width: 430px;
-  height: 450px;
-  max-height: 100%;
+.card-type-book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
 }
 
-.card-3 {
-  width: 430px;
-  height: 450px;
-  max-height: 100%;
+.card-type-picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
 }
-
+ 
 .lots-card-list {
   display: flex;
   flex-direction: column;
@@ -261,30 +257,23 @@ a {
   list-style: none;
 }
 
-.lots-card-list-item-1 {
+.lots-card-list-item {
   max-width: 100%;
   min-height: 100%;
   flex-grow: 1;
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 40px; 
+}
+/*У карточек разные отступы, по этому был добавлен доп класс*/
+.indent-1 {
   margin-right: 38px;
 }
 
-.lots-card-list-item-2 {
-  max-width: 100%;
-  min-height: 100%;
-  flex-grow: 1;
-  margin-top: 50px;
-  margin-left: 40px;
+.indent-2 {
   margin-right: 40px;
 }
 
-.lots-card-list-item-3 {
-  max-width: 100%;
-  min-height: 100%;
-  flex-grow: 1;
-  margin-top: 50px;
-  margin-left: 40px;
+.indent-3 {
   margin-right: 50px;
 }
 
